@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#grill{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    flex-basis: calc((100% / 12) * 4);
+    padding: 10px;
+
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.text{
+    text-align: center;
+    color: gray;
+    
+}
+
+.grey{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.our-team{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.lorem-team{
+    padding: 10px;
+    text-align: center;
+    max-width: 700px;
+    line-height: 20px;
+}
